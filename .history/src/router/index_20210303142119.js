@@ -1,4 +1,4 @@
-import App from '../App'
+import App from './App'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
@@ -21,8 +21,8 @@ const router = new VueRouter({
   routes: [
     {
       path: '/',
-      component: App,
-      children: data
+      // component: App,
+      children: data,
       // component: () => import('@/views/Home.vue'),
     }
   ]

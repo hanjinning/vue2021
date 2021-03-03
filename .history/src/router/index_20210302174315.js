@@ -1,10 +1,7 @@
-import App from '../App'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import data from './data.js'
-// import Main from '../Main.vue'
-// import Login from '../login.vue'
 
 Vue.use(VueRouter)
 
@@ -21,8 +18,8 @@ const router = new VueRouter({
   routes: [
     {
       path: '/',
-      component: App,
-      children: data
+      // component: App,
+      children: data,
       // component: () => import('@/views/Home.vue'),
     }
   ]

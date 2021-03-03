@@ -21,8 +21,8 @@ const router = new VueRouter({
   routes: [
     {
       path: '/',
-      component: App,
-      children: data
+      // component: App,
+      children: data,
       // component: () => import('@/views/Home.vue'),
     }
   ]

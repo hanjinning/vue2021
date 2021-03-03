@@ -22,7 +22,7 @@ const router = new VueRouter({
     {
       path: '/',
       component: App,
-      children: data
+      children: data,
       // component: () => import('@/views/Home.vue'),
     }
   ]
